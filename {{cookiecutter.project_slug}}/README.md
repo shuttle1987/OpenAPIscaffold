@@ -5,6 +5,5 @@
 ## License
 
 {% if cookiecutter.open_source_license != "Not open source" %}
-
-License: {{cookiecutter.open_source_license}}
+This project uses the {{cookiecutter.open_source_license}} licence. Please see the `LICENSE` file for more details.
 {% endif %}

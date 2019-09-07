@@ -21,6 +21,6 @@ def register_swagger_api(connexion_flask_app: connexion.FlaskApp) -> None:
     """Take a connexion FlaskApp and register swagger API"""
     connexion_flask_app.add_api(
         'api_spec.yaml',
-        resolver=RestyResolver('api'),
+        resolver=connexion.RestyResolver('api'),
         validate_responses=True
     )

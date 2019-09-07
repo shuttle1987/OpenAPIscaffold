@@ -1,1 +1,5 @@
 openapi: "3.0.2"
+
+info:
+  title: {{ cookiecutter.API_description }}
+  version: {{ cookiecutter.API_version }}

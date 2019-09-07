@@ -1,8 +1,10 @@
 {
     "full_name": "Janis Lesinskis",
+    "support_email": "support@example.com",
     "project_name": "OpenAPI service",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "API_description": "My API",
+    "project_short_description": "Open API project scaffolding to reduce boilerplate needed to create an API server.",
+    "API_description": "This is an example API",
     "API_version": "0.0.1",
     "open_source_license": [
         "MIT",

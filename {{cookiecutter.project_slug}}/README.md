@@ -18,6 +18,12 @@ python dev_server.py
 
 ## Running the test suite
 
+The requirements for the test suite can be found in test_requirements.txt
+
+```bash
+pip install -r test_requirements.txt
+```
+
 Make sure you have pytest installed then run the tests with:
 
 ```bash
